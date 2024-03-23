@@ -1,6 +1,7 @@
 FROM ryanshaw/node-open-mining-portal:latest
 
 WORKDIR /opt/node-open-mining-portal
+COPY ./coins/nengcoin.json /opt/node-open-mining-portal/coins/
 
 VOLUME ["/opt/config"]
 
