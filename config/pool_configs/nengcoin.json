@@ -1,6 +1,6 @@
 {
     "enabled": true,
-    "coin": "garlicoin.json",
+    "coin": "nengcoin.json",
     
     "address": "mvtv43LtsQSeyCaBBb8xRj5ZpNt75zDX21",
     
@@ -13,9 +13,9 @@
         "paymentInterval": 20,
         "minimumPayment": 0.1,
         "daemon": {
-            "host": "garlicoind-test-node",
+            "host": "nengcoind-test-node",
             "port": 42070,
-            "user": "garlicoinrpc",
+            "user": "nengcoinrpc",
             "password": "password"
         }
     },
@@ -42,9 +42,9 @@
 
     "daemons": [
         {
-            "host": "garlicoind-test-node",
+            "host": "nengcoind-test-node",
             "port": 42070,
-            "user": "garlicoinrpc",
+            "user": "nengcoinrpc",
             "password": "password"
         }
     ]

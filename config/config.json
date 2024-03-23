@@ -34,7 +34,7 @@
         "enabled": true,
         "host": "0.0.0.0",
         "port": 80,
-        "stratumHost": "eu.wildgarlic.fun",
+        "stratumHost": "nengpool.shorelinecrypto.com",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
