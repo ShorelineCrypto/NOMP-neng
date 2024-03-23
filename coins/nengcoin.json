@@ -1,0 +1,7 @@
+{
+    "name": "Nengcoin",
+    "symbol": "NENG",
+    "algorithm": "scrypt",
+    "peerMagic": "f6cbb1d2",
+    "peerMagicTestnet": "f2c3bcd6"
+}
