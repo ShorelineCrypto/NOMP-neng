@@ -2,10 +2,10 @@
     "enabled": true,
     "coin": "nengcoin.json",
     
-    "address": "mvtv43LtsQSeyCaBBb8xRj5ZpNt75zDX21",
+    "address": "NWdoRCxNL8ZNg96R8KCfHkHbquXKSMA3yp",
     
     "rewardRecipients": {
-        "mvtv43LtsQSeyCaBBb8xRj5ZpNt75zDX21": 50
+        "NWdoRCxNL8ZNg96R8KCfHkHbquXKSMA3yp": 50
     },
     
     "paymentProcessing": {
