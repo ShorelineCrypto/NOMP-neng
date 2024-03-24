@@ -46,8 +46,8 @@ Download Nengcoin latest core wallet and configure the daemon in host:
   cp nengcoin.conf-example ~/.nengcoin/nengcoin.conf
 ```
 
-Use your favorite linux editor, modify the file "~/.nengcoin/nengcoin.conf" and customize on rpcuser,  rpcpassword, rpcport for your own pool case.
-Make sure the field values match the pool configuration file at "~/NOMP-neng/config/pool_configs/nengcoin.json" later.
+Use your favorite linux editor, modify the file '~/.nengcoin/nengcoin.conf' and customize on rpcuser,  rpcpassword, rpcport for your own pool case.
+Make sure the field values match the pool configuration file at '~/NOMP-neng/config/pool_configs/nengcoin.json' later.
 
 Start NENG daemon in the host:
 ```
