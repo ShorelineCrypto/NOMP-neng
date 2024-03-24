@@ -34,7 +34,7 @@
         "enabled": true,
         "host": "0.0.0.0",
         "port": 80,
-        "stratumHost": "nengpool.shorelinecrypto.com",
+        "stratumHost": "nengpool.yourip.address",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
