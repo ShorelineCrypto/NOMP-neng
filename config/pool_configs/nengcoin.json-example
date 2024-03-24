@@ -13,8 +13,8 @@
         "paymentInterval": 20,
         "minimumPayment": 0.1,
         "daemon": {
-            "host": "nengcoind-test-node",
-            "port": 42070,
+            "host": "127.0.0.1",
+            "port": 8388,
             "user": "nengcoinrpc",
             "password": "password"
         }
@@ -22,9 +22,9 @@
 
     "ports": {
         "3333": {
-            "diff": 8,
+            "diff": 0.00488,
             "varDiff": {
-                "minDiff": 8,
+                "minDiff": 0.00488,
                 "maxDiff": 512,
                 "targetTime": 15,
                 "retargetTime": 90,
@@ -34,7 +34,7 @@
     },
 
     "p2p": {
-        "enabled": true,
+        "enabled": false,
         "host": "127.0.0.1",
         "port": 19333,
         "disableTransactions": true
@@ -42,8 +42,8 @@
 
     "daemons": [
         {
-            "host": "nengcoind-test-node",
-            "port": 42070,
+            "host": "127.0.0.1",
+            "port": 8388,
             "user": "nengcoinrpc",
             "password": "password"
         }
