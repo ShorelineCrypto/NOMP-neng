@@ -97,4 +97,4 @@ The log should show good results. If you see redis hostname error, make sure to 
 Found your home linux server private IP address, and in browser the NOMP-neng pool at be accessed at URL
 "http://yourPrivateIP.address/"
 
-The rest would be just like any public pool mining. Point your USB ASIC or ASIC to this pool. Enjoy Nengcoin solo mining and help along Nengcoin decentralization with profit!
+The rest would be just like any public pool mining. Point your miner for CPU, GPU, USB ASIC or ASIC to this pool. Enjoy Nengcoin solo mining and help along Nengcoin decentralization with profit!

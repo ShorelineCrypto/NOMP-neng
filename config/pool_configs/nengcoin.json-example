@@ -22,12 +22,12 @@
 
     "ports": {
         "3333": {
-            "diff": 0.00488,
+            "diff": 0.0048828125,
             "varDiff": {
-                "minDiff": 0.00488,
+                "minDiff": 0.000244140625,
                 "maxDiff": 512,
-                "targetTime": 15,
-                "retargetTime": 90,
+                "targetTime": 10,
+                "retargetTime": 60,
                 "variancePercent": 30
             }
         }
