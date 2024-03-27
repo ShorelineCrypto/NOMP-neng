@@ -20,7 +20,7 @@ Moonlander2 USB ASIC (hashrate 3 MH/s).
 
 ## Other Devices Optimization
 
-The default variable diff range also should work well for other weak devices such as Gridseed 5 chip USB miner or even high end powerful PC CPUs on cpu mining
+The default variable diff range also should work well for other weak devices such as Gridseed 5 chip USB miner, GPU or even high end powerful PC CPUs on cpu mining
 software that support scrypt.  If your scrypt ASIC rig is much stronger on hashrate, change the settings on file "nengcoin.json" in pool configuration folder
 to optimize your own device settings easily following "INSTALL.md" step by step guide.
 

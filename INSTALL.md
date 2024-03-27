@@ -16,15 +16,14 @@ In general in ubuntu or debian linux, please follow below to install docker:
   sudo apt-get install docker-compose
 ```
 
-## Step 1 - build docker images / run redis
+## Step 1 - build/run redis docker images
 After finishing docker depenencies installation, obtain source code at user home directory:
 ```
   cd ~
   git clone https://github.com/ShorelineCrypto/NOMP-neng.git
   cd NOMP-neng/redis
   docker-compose up -d
-  cd ..
-  docker build -t nomp-neng .
+
 ```
 
 This will build redis docker images and nomp-neng main docker image required for running NOMP-neng and run redis container.
@@ -34,8 +33,23 @@ Because of "redis" container hostname is unknown by NOMP-neng, below is required
 sudo echo "127.0.0.1       redis" >> /etc/hosts
 ```
 
+## Step 2 - build/run main nomp-neng docker images
 
-## Step 2 - Start nengcoin daemon
+To build your own nomp-neng images, run below:
+
+```
+  cd ~/NOMP-neng
+  docker build -t nomp-neng .
+```
+
+Alternatively, you can download a working docker image from docker hub:
+
+```
+  docker pull shorelinecrypto/nomp-neng:latest
+  docker tag shorelinecrypto/nomp-neng:latest nomp-neng
+```
+
+## Step 3 - Start nengcoin daemon
 
 Download Nengcoin latest core wallet and configure the daemon in host:
 
@@ -62,7 +76,7 @@ rpcport is 6376 and data port is 6377. For example,  a second Nengcoin daemon at
 
 Wait until the nengcoin daemon finishes wallet full node syncing and CPU usage will go to almost zero.
 
-## Step 3 - Configure Nengcoin pool
+## Step 4 - Configure Nengcoin pool
 
 Ran below:
 ```
@@ -73,7 +87,7 @@ Ran below:
 Use editor to modify the file nengcoin.json, change the pool NENG receiving address to your own pool address. Make sure the rpcport, rpcuser, rpcpassword also match that in your nengcoin.conf daomon configuration file.
 Customize pool difficulty setup as needed.
 
-## Step 4 - Start NOMP-neng container
+## Step 5 - Start NOMP-neng container
 
 now start NOMP-neng as below command:
 ```
@@ -92,9 +106,9 @@ Check your NOMP-neng health with docker:
 ```
 The log should show good results. If you see redis hostname error, make sure to run step 1 fix on this issue. 
 
-## Step 5 - Check and start NENG solo pool mining
+## Step 6 - Start/Monitor NENG solo/private pool mining
 
 Found your home linux server private IP address, and in browser the NOMP-neng pool at be accessed at URL
 "http://yourPrivateIP.address/"
 
-The rest would be just like any public pool mining. Point your miner for CPU, GPU, USB ASIC or ASIC to this pool. Enjoy Nengcoin solo mining and help along Nengcoin decentralization with profit!
+The rest would be just like any public pool mining. Point your scrypt miner rig for CPU, GPU, USB ASIC or ASIC to this private pool. Enjoy Nengcoin solo mining and help along Nengcoin decentralization with profit!
