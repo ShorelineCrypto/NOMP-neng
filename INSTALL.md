@@ -108,7 +108,9 @@ The log should show good results. If you see redis hostname error, make sure to 
 
 ## Step 6 - Start/Monitor NENG solo/private pool mining
 
-Found your home linux server private IP address, and in browser the NOMP-neng pool at be accessed at URL
+Found your home linux server private IP address, and in browser the NOMP-neng pool can be accessed at URL
 "http://yourPrivateIP.address/"
+
+A working version of private pool is running at "http://nengpool.shorelinecrypto.com/". ( Warning, this pool has 50% pool fee, for NOMP-neng demo only, no refund if you mine into this pool ).
 
 The rest would be just like any public pool mining. Point your scrypt miner rig for CPU, GPU, USB ASIC or ASIC to this private pool. Enjoy Nengcoin solo mining and help along Nengcoin decentralization with profit!
