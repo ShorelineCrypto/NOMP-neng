@@ -2,7 +2,6 @@
 # NOMP-neng - A Solo Pool for Nengcoin
 #### Node Open Mining Portal
 #### Decentralization, Own your NENG Full Node at home!
-#### Achieve Personal Financial Soveignty with Nengcoin by Mining at Home!
 #### Suitable for CPU, GPU, USB ASIC, ASIC for all Rig Miners!
 
 This pool is adapted from Garlicoin NOMP dockerhub image and its source code. Its default configuration is tailored to home based scrypt Nengcoin solo miners
