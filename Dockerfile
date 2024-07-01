@@ -7,5 +7,6 @@ VOLUME ["/opt/config"]
 
 EXPOSE 80
 EXPOSE 3333
+EXPOSE 3334
 
 CMD node init.js

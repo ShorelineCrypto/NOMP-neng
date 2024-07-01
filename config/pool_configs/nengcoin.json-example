@@ -22,6 +22,19 @@
 
     "ports": {
         "3333": {
+            "diff": 0.0048828125,
+            "varDiff": {
+                "minDiff": 0.000244140625,
+                "maxDiff": 512,
+                "targetTime": 10,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        }
+    },
+
+    "ports": {
+        "3334": {
             "diff": 0.000244140625,
             "varDiff": {
                 "minDiff": 0.000244140625,
