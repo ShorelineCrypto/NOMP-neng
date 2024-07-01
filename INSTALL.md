@@ -54,8 +54,8 @@ Alternatively, you can download a working docker image from docker hub:
 Download Nengcoin latest core wallet and configure the daemon in host:
 
 ```
-  wget https://github.com/ShorelineCrypto/nengcoin/releases/download/v2.3.0/nengcoin_2.3.0_x86_64_linux-gnu.tgz
-  tar xvfz nengcoin_2.3.0_x86_64_linux-gnu.tgz
+  wget https://github.com/ShorelineCrypto/nengcoin/releases/download/v2.4.0/nengcoin_2.4.0_x86_64_linux-gnu.tgz
+  tar xvfz nengcoin_2.4.0_x86_64_linux-gnu.tgz
   mkdir ~/.nengcoin
   cp nengcoin.conf-example ~/.nengcoin/nengcoin.conf
 ```
@@ -65,7 +65,7 @@ Make sure the field values match the pool configuration file at ~/NOMP-neng/conf
 
 Start NENG daemon in the host:
 ```
-  ~/nengcoin_2.3.0_x86_64_linux-gnu/nengcoind
+  ~/nengcoin_2.4.0_x86_64_linux-gnu/nengcoind
 ```
 
 Note that Nengcoin core can run multiple daemons in the sever with different rpcport and data port. Without specifying in nengcoin.conf file, the default nengcoin
@@ -110,7 +110,5 @@ The log should show good results. If you see redis hostname error, make sure to 
 
 Found your home linux server private IP address, and in browser the NOMP-neng pool can be accessed at URL
 "http://yourPrivateIP.address/"
-
-A working version of private pool is running at "http://nengpool.shorelinecrypto.com/". ( Warning, this pool has 50% pool fee, for NOMP-neng demo only, no refund if you mine into this pool ).
 
 The rest would be just like any public pool mining. Point your scrypt miner rig for CPU, GPU, USB ASIC or ASIC to this private pool. Enjoy Nengcoin solo mining and help along Nengcoin decentralization with profit!
