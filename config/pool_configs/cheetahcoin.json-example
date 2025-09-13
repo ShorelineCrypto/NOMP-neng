@@ -1,0 +1,62 @@
+{
+    "enabled": true,
+    "coin": "cheetahcoin.json",
+    
+    "address": "CYy1cR65DPVfecConW73VNtwqLqjNf2Bun",
+    
+    "rewardRecipients": {
+        "CYy1cR65DPVfecConW73VNtwqLqjNf2Bun": 50
+    },
+    
+    "paymentProcessing": {
+        "enabled": true,
+        "paymentInterval": 20,
+        "minimumPayment": 0.1,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 8546,
+            "user": "cheetahcoinrpc",
+            "password": "password"
+        }
+    },
+
+    "ports": {
+        "3363": {
+            "diff": 1,
+            "varDiff": {
+                "minDiff": 0.00244,
+                "maxDiff": 5120,
+                "targetTime": 10,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        },
+
+        "3364": {
+            "diff": 10000,
+            "varDiff": {
+                "minDiff": 1,
+                "maxDiff": 10000000,
+                "targetTime": 10,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        }
+    },
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 8546,
+            "user": "cheetahcoinrpc",
+            "password": "password"
+        }
+    ]
+}
