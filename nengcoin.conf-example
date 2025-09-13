@@ -7,30 +7,8 @@ server=1
 daemon=1
 upnp=1
 maxconnections=20
-addnode=130.162.40.152
+addnode=123.134.177.222
 addnode=209.145.50.223
-addnode 142.112.238.161:13505 onetry
-addnode 104.28.198.171:29494 onetry
-addnode 1.156.5.90:47586 onetry
-addnode 79.113.194.139:57708 onetry
-addnode 89.84.195.176:57764 onetry
-addnode 137.132.222.70:6377 onetry
-addnode 106.127.213.14:9055 onetry
-addnode 146.19.215.49:52320 onetry
-addnode 130.162.40.152:48958 onetry
-addnode 209.145.50.223:55142 onetry
-addnode 144.91.111.8:39602 onetry
-addnode 85.202.228.70:49331 onetry
-addnode 76.152.60.70:40966 onetry
-addnode 188.35.131.72:50870 onetry
-addnode 37.187.155.185:39026 onetry
-addnode 49.185.124.68:46403 onetry
-addnode 85.15.179.171:6377 onetry
-addnode 91.206.16.214:6377 onetry
-addnode 184.91.80.85:59362 onetry
-addnode 99.68.177.108:55594 onetry
-addnode 206.0.20.176:46956 onetry
-addnode 68.187.42.98:64256 onetry
-addnode 85.202.231.41:54800 onetry
-addnode 5.196.91.67:33546 onetry
-addnode 83.253.128.12:60722 onetry
+addnode=69.124.11.22
+addnode=79.76.122.25
+addnode=89.185.100.226
