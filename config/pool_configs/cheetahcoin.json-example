@@ -35,7 +35,7 @@
         "3364": {
             "diff": 10000,
             "varDiff": {
-                "minDiff": 1,
+                "minDiff": 0.00244,
                 "maxDiff": 10000000,
                 "targetTime": 10,
                 "retargetTime": 60,
