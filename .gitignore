@@ -4,4 +4,5 @@ pool_configs/*.json
 !pool_configs/litecoin_example.json
 !pool_configs/garlicoin.json
 config/pool_configs/nengcoin.json
+config/pool_configs/cheetahcoin.json
 npm-debug.log
